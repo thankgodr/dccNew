@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/articles"
+            android:icon="@mipmap/article_logo"
+            android:title="Articles" />
+        <item
+            android:id="@+id/events"
+            android:icon="@mipmap/event_logo"
+            android:title="Events" />
+        <item
+            android:id="@+id/audio"
+            android:icon="@mipmap/audio_logo"
+            android:title="Audio Messages" />
+        <item
+            android:id="@+id/video"
+            android:icon="@mipmap/video_logo"
+            android:title="Video Messages" />
+        <item
+            android:id="@+id/stream"
+            android:icon="@mipmap/stream_logo"
+            android:title="Live Stream" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dome"
+            android:icon="@mipmap/dome_logo"
+            android:title="Dome"
+            />
+        <item
+            android:id="@+id/office"
+            android:icon="@mipmap/ofice_logo"
+            android:title="Office"/>
+    </group>
+</menu>
